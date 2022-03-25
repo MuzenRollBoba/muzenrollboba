@@ -162,11 +162,11 @@ a.button {
   text-align: left;
   display: flex;
 }
-@font-face "Hershey-Noailles-Futura" {
+@font-face {
   font-family: "Hershey-Noailles-Futura";
   src: url('/Hershey-Noailles-Futura-Simplex-Regular.woff') format (woff);
 }
-@font-face "Glacial Indifference" {
+@font-face {
   font-family: "Glacial Indifference";
   src: url('/GlacialIndifference-Regular.otf') format (otf);
 }
