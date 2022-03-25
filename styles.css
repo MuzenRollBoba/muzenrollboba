@@ -8,7 +8,7 @@ body {
   margin: auto;
   background-color: RGB(245,245,239);
   color: red;
-  font-family: "Hershey-Noailles-Futura";
+  font-family: "Hershey-Noailles-Futura", "helvetica", sans-serif;
   font-size: 30px;
   height: 100vh;
 }
@@ -26,7 +26,7 @@ nav {
   border-right: thin dotted red;
   border-bottom: thin solid green;
   width: 45vw;
-  font-family: "Hershey-Noailles-Futura";
+  font-family: "Hershey-Noailles-Futura", "helvetica", sans-serif;
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
@@ -70,7 +70,7 @@ h3 /** description **/ {
 
 }
 h4 /** price **/ {
-  font-family: "Glacial Indifference";
+  font-family: "Glacial Indifference", "helvetica", sans-serif;
   font-weight: normal;
   font-size: 20px;
   margin-top: 0px;
@@ -83,7 +83,7 @@ h5 /** more info **/ {
   margin-bottom: 40px;
 }
 p {
-  font-family: "Glacial Indifference", sans-serif;
+  font-family: "Glacial Indifference", "helvetica", sans-serif;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -112,7 +112,7 @@ p {
   border-bottom: thin dotted green;
   border-top: thin dotted red;
   width: 20vw;
-  font-family: "Hershey-Noailles-Futura";
+  font-family: "Hershey-Noailles-Futura", "helvetica", sans-serif;
 }
 .button:hover {
   border-bottom: thin solid green;
@@ -162,13 +162,11 @@ a.button {
   text-align: left;
   display: flex;
 }
-@font-face HERSHEY-NOAILLES-FUTURA-SIMPLEX-REGULAR {
-  font-family: "Hershey-Noailles-Futura", serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face "Hershey-Noailles-Futura" {
+  font-family: "Hershey-Noailles-Futura";
+  src: url('/Hershey-Noailles-Futura-Simplex-Regular.woff') format (woff);
 }
 @font-face "Glacial Indifference" {
-  font-family: "Glacial Indifference", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Glacial Indifference";
+  src: url('/GlacialIndifference-Regular.otf') format (otf);
 }
