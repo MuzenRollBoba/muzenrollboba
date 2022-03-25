@@ -83,7 +83,7 @@ h5 /** more info **/ {
   margin-bottom: 40px;
 }
 p {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Glacial Indifference", sans-serif;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -163,12 +163,12 @@ a.button {
   display: flex;
 }
 @font-face HERSHEY-NOAILLES-FUTURA-SIMPLEX-REGULAR {
-  font-family: Hershey-Noailles-Futura, serif;
+  font-family: "Hershey-Noailles-Futura", serif;
   font-weight: 400;
   font-style: normal;
 }
-@font-face Didact-Gothic {
-  font-family: 'Didact Gothic', sans-serif;
+@font-face "Glacial Indifference" {
+  font-family: "Glacial Indifference", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
