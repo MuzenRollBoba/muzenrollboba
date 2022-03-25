@@ -164,9 +164,9 @@ a.button {
 }
 @font-face {
   font-family: "Hershey-Noailles-Futura";
-  src: url('/Hershey-Noailles-Futura-Simplex-Regular.woff') format (woff);
+  src: url('/font/Hershey-Noailles-Futura-Simplex-Regular.woff') format (woff);
 }
 @font-face {
   font-family: "Glacial Indifference";
-  src: url('/GlacialIndifference-Regular.otf') format (otf);
+  src: url('/font/GlacialIndifference-Regular.otf') format (otf);
 }
