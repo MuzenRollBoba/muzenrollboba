@@ -70,7 +70,7 @@ h3 /** description **/ {
 
 }
 h4 /** price **/ {
-  font-family: "Glacial Indifference", "helvetica", sans-serif;
+  font-family: "Sofia Pro", "helvetica", sans-serif;
   font-weight: normal;
   font-size: 20px;
   margin-top: 0px;
@@ -83,7 +83,7 @@ h5 /** more info **/ {
   margin-bottom: 40px;
 }
 p {
-  font-family: "Glacial Indifference", "helvetica", sans-serif;
+  font-family: "Sofia Pro", "helvetica", sans-serif;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -165,8 +165,4 @@ a.button {
 @font-face {
   font-family: "Hershey-Noailles-Futura";
   src: url('http://hershey-noailles.luuse.io/output/Hershey-Noailles-Futura-Simplex-Regular/Hershey-Noailles-Futura-Simplex-Regular.woff') format (woff);
-}
-@font-face {
-  font-family: "Glacial Indifference";
-  src: url('/font/GlacialIndifference-Regular.otf') format (otf);
 }
