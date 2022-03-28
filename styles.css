@@ -166,3 +166,8 @@ a.button {
   font-family: "Hershey-Noailles-Futura";
   src: url('http://hershey-noailles.luuse.io/output/Hershey-Noailles-Futura-Simplex-Regular/Hershey-Noailles-Futura-Simplex-Regular.woff') format (woff);
 }
+Sofia Pro {
+  font-family: "Sofia Pro", "helvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
