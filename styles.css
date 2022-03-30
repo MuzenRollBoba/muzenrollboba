@@ -8,29 +8,39 @@ body {
   margin: auto;
   background-color: RGB(245,245,239);
   color: red;
-  font-family: "Hershey-Noailles-Futura", "helvetica", sans-serif;
-  font-size: 30px;
+  font-family: "sofia-pro", "helvetica", sans-serif;
+  font-size: 3vw;
   height: 100vh;
 }
+@media screen and (max-width: 500px) {
+body {
+    font-size: 4vw;
+  }
+}
 img {
-  padding-bottom: 10px;
-  padding: 44px;
+  padding-bottom: 1vh;
+  padding: 1vw;
 }
 nav {
-  padding: 30px;
+  padding: 3vh;
   position: fixed;
   top: 0; left: 0; right: 0;
   margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 4vh;
   border-left: thin dotted red;
   border-right: thin dotted red;
   border-bottom: thin solid green;
   width: 45vw;
-  font-family: "Hershey-Noailles-Futura", "helvetica", sans-serif;
+  font-family: "Lingua", "helvetica", sans-serif;
   font-weight: bold;
   font-style: italic;
-  font-size: 20px;
+  font-size: 2vw;
   background-color: RGB(245,245,239);
+}
+@media screen and (max-width: 800px) {
+nav {
+    font-size: 4vw;
+  }
 }
 a, a:visited {
   color: red;
@@ -40,12 +50,12 @@ a:hover {
   text-decoration: underline dotted red 1px;
 }
 li /** menu items **/{
-  font-size: 20px;
+  font-size: 3vw;
   font-weight: normal;
   list-style-type: none;
 }
 h1 /** nav categories **/ {
-  font-size: 25px;
+  font-size: 4vw;
   border: thin dotted;
   border-radius: 100%;
   height: 10vw;
@@ -54,39 +64,52 @@ h1 /** nav categories **/ {
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10vw;
+  padding-top: 7vw;
+  padding-bottom: 3vw;
+}
+#small {
+  font-size: 2.5vw;
+  padding-top: 8vw;
 }
 h2 /** subheads **/ {
-  font-size: 25px;
+  font-size: 4vw;
   font-style: italic;
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding: 3vw;
 }
 h3 /** description **/ {
-  font-size: 15px;
+  font-size: 3vw;
   font-style: italic;
   margin: 5px;
 
 }
 h4 /** price **/ {
-  font-family: "Sofia Pro", "helvetica", sans-serif;
+  font-family: "sofia-pro", "helvetica", sans-serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 3vw;
   margin-top: 0px;
   margin-bottom: 35px;
 }
 h5 /** more info **/ {
-  font-size: 20px;
+  font-size: 3vw;
   font-style: italic;
   line-height: .75em;
   margin-bottom: 40px;
 }
 p {
-  font-family: "Sofia Pro", "helvetica", sans-serif;
-  text-align: center;
-  justify-content: center;
-  display: flex;
+  font-family: "sofia-pro", "helvetica", sans-serif;
+  text-align: left;
+  font-size: 20px;
+  padding: 33px;
+  margin-right: 20vw;
+  margin-left: 20vw;
+}
+@media screen and (max-width: 800px) {
+p {
+  margin-right: 0;
+  margin-left: 0;
+  }
 }
 
 .more-info {
@@ -98,24 +121,19 @@ p {
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 40px;
-
-}
-p {
-  text-align: justify;
-  font-size: 20px;
-  padding: 33px;
 }
 .button {
   display: inline-block;
-  border-left: thin dotted red;
-  border-right: thin dotted red;
-  border-bottom: thin dotted green;
-  border-top: thin dotted red;
+  border-left: .1px solid red;
+  border-right: .1px solid red;
+  border-bottom: .1px solid green;
+  border-top: .1px solid red;
   width: 20vw;
-  font-family: "Hershey-Noailles-Futura", "helvetica", sans-serif;
+  font-family: "Lingua", "helvetica", sans-serif;
 }
 .button:hover {
-  border-bottom: thin solid green;
+  border-top: thin dotted red;
+  border-bottom: thin dotted green;
 }
 a.button {
   display: block;
@@ -162,12 +180,13 @@ a.button {
   text-align: left;
   display: flex;
 }
-@font-face {
-  font-family: 'Hershey-Noailles-Futura';
-  src: url('font/Hershey-Noailles-Futura-Simplex-Regular.woff') format (woff);
+Sofia Pro Regular {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-Sofia Pro {
-  font-family: 'Sofia Pro', sans-serif;
+Lingua {
+  font-family: lingua,sans-serif;
   font-weight: 400;
   font-style: normal;
 }
